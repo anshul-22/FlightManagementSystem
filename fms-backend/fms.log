@@ -1,0 +1,538 @@
+2025-01-25T00:00:15.028+05:30  INFO 4680 --- [fms] [http-nio-8080-exec-1] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T00:02:14.457+05:30  INFO 4680 --- [fms] [http-nio-8080-exec-3] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T00:02:53.729+05:30  INFO 4680 --- [fms] [http-nio-8080-exec-4] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T00:04:21.316+05:30  INFO 4680 --- [fms] [http-nio-8080-exec-6] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T00:05:58.027+05:30  INFO 4680 --- [fms] [http-nio-8080-exec-9] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T00:06:28.847+05:30  INFO 15940 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Starting FmsApplication using Java 21.0.5 with PID 15940 (C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend\target\classes started by aanshul in C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend)
+2025-01-25T00:06:28.849+05:30 DEBUG 15940 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Running with Spring Boot v3.3.7, Spring v6.1.16
+2025-01-25T00:06:28.851+05:30  INFO 15940 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : The following 1 profile is active: "prod"
+2025-01-25T00:06:28.911+05:30  INFO 15940 --- [fms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-25T00:06:28.912+05:30  INFO 15940 --- [fms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-25T00:06:30.856+05:30  INFO 15940 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T00:06:30.969+05:30  INFO 15940 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 7 JPA repository interfaces.
+2025-01-25T00:06:31.989+05:30  INFO 15940 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-25T00:06:32.010+05:30  INFO 15940 --- [fms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-25T00:06:32.011+05:30  INFO 15940 --- [fms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-25T00:06:32.094+05:30  INFO 15940 --- [fms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-25T00:06:32.095+05:30  INFO 15940 --- [fms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3182 ms
+2025-01-25T00:06:32.308+05:30  INFO 15940 --- [fms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T00:06:32.399+05:30  INFO 15940 --- [fms] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-25T00:06:32.443+05:30  INFO 15940 --- [fms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T00:06:32.830+05:30  INFO 15940 --- [fms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T00:06:32.877+05:30  INFO 15940 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-25T00:06:33.233+05:30  INFO 15940 --- [fms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2f66aa3
+2025-01-25T00:06:33.235+05:30  INFO 15940 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-25T00:06:33.280+05:30  WARN 15940 --- [fms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T00:06:34.422+05:30  INFO 15940 --- [fms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T00:06:34.577+05:30  INFO 15940 --- [fms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T00:06:34.980+05:30 DEBUG 15940 --- [fms] [restartedMain] com.pjsoft.fms.config.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2025-01-25T00:06:35.202+05:30  INFO 15940 --- [fms] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-01-25T00:06:35.204+05:30  WARN 15940 --- [fms] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-25T00:06:35.376+05:30  WARN 15940 --- [fms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T00:06:36.081+05:30  INFO 15940 --- [fms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/fmsdb'
+2025-01-25T00:06:36.179+05:30  INFO 15940 --- [fms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-25T00:06:36.219+05:30  INFO 15940 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-25T00:06:36.233+05:30  INFO 15940 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Started FmsApplication in 7.907 seconds (process running for 19.708)
+2025-01-25T00:06:44.344+05:30  INFO 15940 --- [fms] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-25T00:06:44.344+05:30  INFO 15940 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-25T00:06:44.346+05:30  INFO 15940 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-25T00:06:44.445+05:30  INFO 15940 --- [fms] [http-nio-8080-exec-1] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T00:11:14.210+05:30  INFO 15940 --- [fms] [http-nio-8080-exec-2] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T00:12:14.916+05:30  INFO 15940 --- [fms] [http-nio-8080-exec-4] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T00:12:23.621+05:30  INFO 15940 --- [fms] [http-nio-8080-exec-7] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T14:08:00.825+05:30  INFO 14532 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Starting FmsApplication using Java 21.0.5 with PID 14532 (C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend\target\classes started by aanshul in C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend)
+2025-01-25T14:08:00.828+05:30 DEBUG 14532 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Running with Spring Boot v3.3.7, Spring v6.1.16
+2025-01-25T14:08:00.831+05:30  INFO 14532 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : The following 1 profile is active: "prod"
+2025-01-25T14:08:01.023+05:30  INFO 14532 --- [fms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-25T14:08:01.024+05:30  INFO 14532 --- [fms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-25T14:08:05.694+05:30  INFO 14532 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T14:08:05.927+05:30  INFO 14532 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 210 ms. Found 7 JPA repository interfaces.
+2025-01-25T14:08:07.974+05:30  INFO 14532 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-25T14:08:08.025+05:30  INFO 14532 --- [fms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-25T14:08:08.026+05:30  INFO 14532 --- [fms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-25T14:08:08.199+05:30  INFO 14532 --- [fms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-25T14:08:08.201+05:30  INFO 14532 --- [fms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7174 ms
+2025-01-25T14:08:08.736+05:30  INFO 14532 --- [fms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T14:08:08.977+05:30  INFO 14532 --- [fms] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-25T14:08:09.096+05:30  INFO 14532 --- [fms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T14:08:09.934+05:30  INFO 14532 --- [fms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T14:08:10.018+05:30  INFO 14532 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-25T14:08:10.782+05:30  INFO 14532 --- [fms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4b7ac856
+2025-01-25T14:08:10.786+05:30  INFO 14532 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-25T14:08:10.936+05:30  WARN 14532 --- [fms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T14:08:13.683+05:30  INFO 14532 --- [fms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T14:08:14.079+05:30  INFO 14532 --- [fms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T14:08:15.072+05:30 DEBUG 14532 --- [fms] [restartedMain] com.pjsoft.fms.config.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2025-01-25T14:08:15.490+05:30  INFO 14532 --- [fms] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-01-25T14:08:15.492+05:30  WARN 14532 --- [fms] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-25T14:08:15.850+05:30  WARN 14532 --- [fms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T14:08:17.502+05:30  INFO 14532 --- [fms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/fmsdb'
+2025-01-25T14:08:17.703+05:30  INFO 14532 --- [fms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-25T14:08:17.800+05:30  INFO 14532 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-25T14:08:17.829+05:30  INFO 14532 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Started FmsApplication in 18.37 seconds (process running for 35.126)
+2025-01-25T14:08:38.736+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-25T14:08:38.737+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-25T14:08:38.740+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-01-25T14:08:39.027+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-3] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T14:08:50.923+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-2] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admmin123]
+2025-01-25T14:08:51.082+05:30  WARN 14532 --- [fms] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.Exception: INVALID_CREDENTIALS]
+2025-01-25T14:09:50.370+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-4] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admmin123]
+2025-01-25T14:09:50.454+05:30  WARN 14532 --- [fms] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.Exception: INVALID_CREDENTIALS]
+2025-01-25T14:10:24.035+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-5] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admmin123]
+2025-01-25T14:10:24.123+05:30  WARN 14532 --- [fms] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.Exception: INVALID_CREDENTIALS]
+2025-01-25T14:10:32.049+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-6] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T14:10:56.922+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-7] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T14:11:25.512+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-8] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T14:11:32.311+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-10] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T14:12:53.375+05:30  INFO 14532 --- [fms] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-25T14:12:53.392+05:30  INFO 14532 --- [fms] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T14:12:53.397+05:30  INFO 14532 --- [fms] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-25T14:12:53.401+05:30  INFO 14532 --- [fms] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-25T14:12:53.539+05:30  INFO 14532 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Starting FmsApplication using Java 21.0.5 with PID 14532 (C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend\target\classes started by aanshul in C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend)
+2025-01-25T14:12:53.539+05:30 DEBUG 14532 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Running with Spring Boot v3.3.7, Spring v6.1.16
+2025-01-25T14:12:53.539+05:30  INFO 14532 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : The following 1 profile is active: "prod"
+2025-01-25T14:12:54.622+05:30  INFO 14532 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T14:12:54.664+05:30  INFO 14532 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 7 JPA repository interfaces.
+2025-01-25T14:12:54.811+05:30  INFO 14532 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-25T14:12:54.812+05:30  INFO 14532 --- [fms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-25T14:12:54.812+05:30  INFO 14532 --- [fms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-25T14:12:54.839+05:30  INFO 14532 --- [fms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-25T14:12:54.839+05:30  INFO 14532 --- [fms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1297 ms
+2025-01-25T14:12:54.893+05:30  INFO 14532 --- [fms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T14:12:54.897+05:30  INFO 14532 --- [fms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T14:12:54.915+05:30  INFO 14532 --- [fms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T14:12:54.916+05:30  INFO 14532 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-01-25T14:12:55.086+05:30  INFO 14532 --- [fms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@c4d7166
+2025-01-25T14:12:55.086+05:30  INFO 14532 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-01-25T14:12:55.100+05:30  WARN 14532 --- [fms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T14:12:55.320+05:30  INFO 14532 --- [fms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T14:12:55.428+05:30  INFO 14532 --- [fms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T14:12:55.494+05:30 DEBUG 14532 --- [fms] [restartedMain] com.pjsoft.fms.config.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2025-01-25T14:12:55.637+05:30  INFO 14532 --- [fms] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-01-25T14:12:55.638+05:30  WARN 14532 --- [fms] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-25T14:12:55.670+05:30  WARN 14532 --- [fms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T14:12:55.910+05:30  INFO 14532 --- [fms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/fmsdb'
+2025-01-25T14:12:55.941+05:30  INFO 14532 --- [fms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-25T14:12:55.967+05:30  INFO 14532 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-25T14:12:55.976+05:30  INFO 14532 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Started FmsApplication in 2.485 seconds (process running for 313.273)
+2025-01-25T14:12:55.982+05:30  INFO 14532 --- [fms] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-25T14:13:15.830+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-25T14:13:15.830+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-25T14:13:15.831+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-25T14:13:15.838+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-3] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T14:15:35.070+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-7] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T14:27:31.649+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-1] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T14:37:34.502+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-5] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T14:39:58.609+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-10] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T14:44:54.589+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-4] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=ADMIN123]
+2025-01-25T14:44:54.662+05:30  WARN 14532 --- [fms] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.Exception: INVALID_CREDENTIALS]
+2025-01-25T14:45:03.094+05:30  INFO 14532 --- [fms] [http-nio-8080-exec-7] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T15:08:10.931+05:30  WARN 14532 --- [fms] [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=6m44s3ms505µs499ns).
+2025-01-25T15:10:36.251+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Starting FmsApplication using Java 21.0.5 with PID 3160 (C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend\target\classes started by aanshul in C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend)
+2025-01-25T15:10:36.253+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Running with Spring Boot v3.3.7, Spring v6.1.16
+2025-01-25T15:10:36.255+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : The following 1 profile is active: "prod"
+2025-01-25T15:10:36.317+05:30  INFO 3160 --- [fms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-25T15:10:36.317+05:30  INFO 3160 --- [fms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-25T15:10:38.072+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T15:10:38.173+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 7 JPA repository interfaces.
+2025-01-25T15:10:39.002+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-25T15:10:39.025+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-25T15:10:39.026+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-25T15:10:39.098+05:30  INFO 3160 --- [fms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-25T15:10:39.098+05:30  INFO 3160 --- [fms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2780 ms
+2025-01-25T15:10:39.294+05:30  INFO 3160 --- [fms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T15:10:39.379+05:30  INFO 3160 --- [fms] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-25T15:10:39.425+05:30  INFO 3160 --- [fms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T15:10:39.740+05:30  INFO 3160 --- [fms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T15:10:39.781+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-25T15:10:40.114+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2f66aa3
+2025-01-25T15:10:40.117+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-25T15:10:40.151+05:30  WARN 3160 --- [fms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T15:10:41.168+05:30  INFO 3160 --- [fms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T15:10:41.327+05:30  INFO 3160 --- [fms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:10:41.799+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.config.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2025-01-25T15:10:42.048+05:30  INFO 3160 --- [fms] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-01-25T15:10:42.050+05:30  WARN 3160 --- [fms] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-25T15:10:42.247+05:30  WARN 3160 --- [fms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T15:10:42.937+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/fmsdb'
+2025-01-25T15:10:43.049+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-25T15:10:43.100+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-25T15:10:43.115+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Started FmsApplication in 7.479 seconds (process running for 15.453)
+2025-01-25T15:13:01.326+05:30  INFO 3160 --- [fms] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-25T15:13:01.340+05:30  INFO 3160 --- [fms] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:13:01.345+05:30  INFO 3160 --- [fms] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-25T15:13:01.349+05:30  INFO 3160 --- [fms] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-25T15:13:01.450+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Starting FmsApplication using Java 21.0.5 with PID 3160 (C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend\target\classes started by aanshul in C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend)
+2025-01-25T15:13:01.451+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Running with Spring Boot v3.3.7, Spring v6.1.16
+2025-01-25T15:13:01.451+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : The following 1 profile is active: "prod"
+2025-01-25T15:13:01.707+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T15:13:01.744+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 7 JPA repository interfaces.
+2025-01-25T15:13:01.854+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-25T15:13:01.855+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-25T15:13:01.856+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-25T15:13:01.877+05:30  INFO 3160 --- [fms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-25T15:13:01.877+05:30  INFO 3160 --- [fms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 423 ms
+2025-01-25T15:13:01.915+05:30  INFO 3160 --- [fms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T15:13:01.918+05:30  INFO 3160 --- [fms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T15:13:01.929+05:30  INFO 3160 --- [fms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T15:13:01.930+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-01-25T15:13:02.015+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@4b50ce84
+2025-01-25T15:13:02.015+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-01-25T15:13:02.024+05:30  WARN 3160 --- [fms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T15:13:02.160+05:30  INFO 3160 --- [fms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T15:13:02.242+05:30  INFO 3160 --- [fms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:13:02.302+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.config.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2025-01-25T15:13:02.407+05:30  INFO 3160 --- [fms] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-01-25T15:13:02.408+05:30  WARN 3160 --- [fms] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-25T15:13:02.446+05:30  WARN 3160 --- [fms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T15:13:02.603+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/fmsdb'
+2025-01-25T15:13:02.625+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-25T15:13:02.644+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-25T15:13:02.648+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Started FmsApplication in 1.227 seconds (process running for 154.987)
+2025-01-25T15:13:02.652+05:30  INFO 3160 --- [fms] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-25T15:14:31.539+05:30  INFO 3160 --- [fms] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-25T15:14:31.548+05:30  INFO 3160 --- [fms] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:14:31.549+05:30  INFO 3160 --- [fms] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-01-25T15:14:31.553+05:30  INFO 3160 --- [fms] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-01-25T15:14:31.663+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Starting FmsApplication using Java 21.0.5 with PID 3160 (C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend\target\classes started by aanshul in C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend)
+2025-01-25T15:14:31.663+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Running with Spring Boot v3.3.7, Spring v6.1.16
+2025-01-25T15:14:31.664+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : The following 1 profile is active: "prod"
+2025-01-25T15:14:31.904+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T15:14:31.946+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 7 JPA repository interfaces.
+2025-01-25T15:14:32.055+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-25T15:14:32.055+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-25T15:14:32.055+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-25T15:14:32.077+05:30  INFO 3160 --- [fms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-25T15:14:32.077+05:30  INFO 3160 --- [fms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 409 ms
+2025-01-25T15:14:32.118+05:30  INFO 3160 --- [fms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T15:14:32.120+05:30  INFO 3160 --- [fms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T15:14:32.127+05:30  INFO 3160 --- [fms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T15:14:32.128+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-01-25T15:14:32.221+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@17fbacf6
+2025-01-25T15:14:32.221+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-01-25T15:14:32.229+05:30  WARN 3160 --- [fms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T15:14:32.338+05:30  INFO 3160 --- [fms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T15:14:32.429+05:30  INFO 3160 --- [fms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:14:32.476+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.config.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2025-01-25T15:14:32.552+05:30  INFO 3160 --- [fms] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-01-25T15:14:32.553+05:30  WARN 3160 --- [fms] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-25T15:14:32.572+05:30  WARN 3160 --- [fms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T15:14:32.726+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/fmsdb'
+2025-01-25T15:14:32.754+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-25T15:14:32.764+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-25T15:14:32.769+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Started FmsApplication in 1.139 seconds (process running for 245.108)
+2025-01-25T15:14:32.771+05:30  INFO 3160 --- [fms] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-25T15:15:17.814+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-25T15:15:17.814+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-25T15:15:17.815+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-25T15:15:39.170+05:30  INFO 3160 --- [fms] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-25T15:15:39.178+05:30  INFO 3160 --- [fms] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:15:39.179+05:30  INFO 3160 --- [fms] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-01-25T15:15:39.182+05:30  INFO 3160 --- [fms] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-01-25T15:15:39.274+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Starting FmsApplication using Java 21.0.5 with PID 3160 (C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend\target\classes started by aanshul in C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend)
+2025-01-25T15:15:39.274+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Running with Spring Boot v3.3.7, Spring v6.1.16
+2025-01-25T15:15:39.274+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : The following 1 profile is active: "prod"
+2025-01-25T15:15:39.478+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T15:15:39.511+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 7 JPA repository interfaces.
+2025-01-25T15:15:39.603+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-25T15:15:39.604+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-25T15:15:39.605+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-25T15:15:39.626+05:30  INFO 3160 --- [fms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-25T15:15:39.627+05:30  INFO 3160 --- [fms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 350 ms
+2025-01-25T15:15:39.658+05:30  INFO 3160 --- [fms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T15:15:39.661+05:30  INFO 3160 --- [fms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T15:15:39.669+05:30  INFO 3160 --- [fms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T15:15:39.670+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-01-25T15:15:39.760+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@4350614f
+2025-01-25T15:15:39.761+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-01-25T15:15:39.769+05:30  WARN 3160 --- [fms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T15:15:39.879+05:30  INFO 3160 --- [fms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T15:15:39.955+05:30  INFO 3160 --- [fms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:15:40.001+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.config.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2025-01-25T15:15:40.092+05:30  INFO 3160 --- [fms] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-01-25T15:15:40.093+05:30  WARN 3160 --- [fms] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-25T15:15:40.133+05:30  WARN 3160 --- [fms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T15:15:40.280+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/fmsdb'
+2025-01-25T15:15:40.300+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-25T15:15:40.310+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-25T15:15:40.314+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Started FmsApplication in 1.06 seconds (process running for 312.652)
+2025-01-25T15:15:40.316+05:30  INFO 3160 --- [fms] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-25T15:15:44.763+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-25T15:15:44.763+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-25T15:15:44.764+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-25T15:15:57.249+05:30  INFO 3160 --- [fms] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-25T15:15:57.256+05:30  INFO 3160 --- [fms] [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:15:57.257+05:30  INFO 3160 --- [fms] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-01-25T15:15:57.260+05:30  INFO 3160 --- [fms] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-01-25T15:15:57.369+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Starting FmsApplication using Java 21.0.5 with PID 3160 (C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend\target\classes started by aanshul in C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend)
+2025-01-25T15:15:57.369+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Running with Spring Boot v3.3.7, Spring v6.1.16
+2025-01-25T15:15:57.369+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : The following 1 profile is active: "prod"
+2025-01-25T15:15:57.588+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T15:15:57.619+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 7 JPA repository interfaces.
+2025-01-25T15:15:57.714+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-25T15:15:57.714+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-25T15:15:57.715+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-25T15:15:57.740+05:30  INFO 3160 --- [fms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-25T15:15:57.741+05:30  INFO 3160 --- [fms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 370 ms
+2025-01-25T15:15:57.777+05:30  INFO 3160 --- [fms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T15:15:57.779+05:30  INFO 3160 --- [fms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T15:15:57.786+05:30  INFO 3160 --- [fms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T15:15:57.788+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2025-01-25T15:15:57.932+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@e763e9
+2025-01-25T15:15:57.932+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2025-01-25T15:15:57.943+05:30  WARN 3160 --- [fms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T15:15:58.060+05:30  INFO 3160 --- [fms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T15:15:58.157+05:30  INFO 3160 --- [fms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:15:58.207+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.config.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2025-01-25T15:15:58.315+05:30  INFO 3160 --- [fms] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-01-25T15:15:58.315+05:30  WARN 3160 --- [fms] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-25T15:15:58.343+05:30  WARN 3160 --- [fms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T15:15:58.509+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/fmsdb'
+2025-01-25T15:15:58.538+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-25T15:15:58.552+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-25T15:15:58.555+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Started FmsApplication in 1.211 seconds (process running for 330.894)
+2025-01-25T15:15:58.559+05:30  INFO 3160 --- [fms] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-25T15:16:03.526+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-25T15:16:03.526+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-25T15:16:03.528+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-25T15:18:26.099+05:30  INFO 3160 --- [fms] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-01-25T15:18:26.106+05:30  INFO 3160 --- [fms] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:18:26.106+05:30  INFO 3160 --- [fms] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2025-01-25T15:18:26.109+05:30  INFO 3160 --- [fms] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2025-01-25T15:18:26.205+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Starting FmsApplication using Java 21.0.5 with PID 3160 (C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend\target\classes started by aanshul in C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend)
+2025-01-25T15:18:26.205+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Running with Spring Boot v3.3.7, Spring v6.1.16
+2025-01-25T15:18:26.205+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : The following 1 profile is active: "prod"
+2025-01-25T15:18:26.402+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T15:18:26.433+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 7 JPA repository interfaces.
+2025-01-25T15:18:26.543+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-25T15:18:26.545+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-25T15:18:26.545+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-25T15:18:26.568+05:30  INFO 3160 --- [fms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-25T15:18:26.569+05:30  INFO 3160 --- [fms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 361 ms
+2025-01-25T15:18:26.596+05:30  INFO 3160 --- [fms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T15:18:26.598+05:30  INFO 3160 --- [fms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T15:18:26.604+05:30  INFO 3160 --- [fms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T15:18:26.605+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2025-01-25T15:18:26.697+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@707ff5e6
+2025-01-25T15:18:26.697+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2025-01-25T15:18:26.704+05:30  WARN 3160 --- [fms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T15:18:26.803+05:30  INFO 3160 --- [fms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T15:18:26.905+05:30  INFO 3160 --- [fms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:18:26.960+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.config.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2025-01-25T15:18:27.064+05:30  INFO 3160 --- [fms] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-01-25T15:18:27.064+05:30  WARN 3160 --- [fms] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-25T15:18:27.085+05:30  WARN 3160 --- [fms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T15:18:27.223+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/fmsdb'
+2025-01-25T15:18:27.242+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-25T15:18:27.254+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-25T15:18:27.257+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Started FmsApplication in 1.077 seconds (process running for 479.595)
+2025-01-25T15:18:27.258+05:30  INFO 3160 --- [fms] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-25T15:18:36.966+05:30  INFO 3160 --- [fms] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-25T15:18:36.973+05:30  INFO 3160 --- [fms] [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:18:36.974+05:30  INFO 3160 --- [fms] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2025-01-25T15:18:36.977+05:30  INFO 3160 --- [fms] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2025-01-25T15:18:37.067+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Starting FmsApplication using Java 21.0.5 with PID 3160 (C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend\target\classes started by aanshul in C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend)
+2025-01-25T15:18:37.067+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Running with Spring Boot v3.3.7, Spring v6.1.16
+2025-01-25T15:18:37.068+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : The following 1 profile is active: "prod"
+2025-01-25T15:18:37.259+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T15:18:37.287+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 7 JPA repository interfaces.
+2025-01-25T15:18:37.367+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-25T15:18:37.368+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-25T15:18:37.369+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-25T15:18:37.389+05:30  INFO 3160 --- [fms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-25T15:18:37.389+05:30  INFO 3160 --- [fms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 319 ms
+2025-01-25T15:18:37.416+05:30  INFO 3160 --- [fms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T15:18:37.418+05:30  INFO 3160 --- [fms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T15:18:37.423+05:30  INFO 3160 --- [fms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T15:18:37.424+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2025-01-25T15:18:37.537+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@6480bd27
+2025-01-25T15:18:37.537+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2025-01-25T15:18:37.544+05:30  WARN 3160 --- [fms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T15:18:37.640+05:30  INFO 3160 --- [fms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T15:18:37.721+05:30  INFO 3160 --- [fms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:18:37.768+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.config.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2025-01-25T15:18:37.871+05:30  INFO 3160 --- [fms] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-01-25T15:18:37.872+05:30  WARN 3160 --- [fms] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-25T15:18:37.892+05:30  WARN 3160 --- [fms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T15:18:38.031+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/fmsdb'
+2025-01-25T15:18:38.049+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-25T15:18:38.058+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-25T15:18:38.061+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Started FmsApplication in 1.012 seconds (process running for 490.399)
+2025-01-25T15:18:38.062+05:30  INFO 3160 --- [fms] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-25T15:18:46.020+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-25T15:18:46.020+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-25T15:18:46.021+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-01-25T15:19:24.893+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-3] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T15:23:28.948+05:30  INFO 3160 --- [fms] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-25T15:23:28.956+05:30  INFO 3160 --- [fms] [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:23:28.956+05:30  INFO 3160 --- [fms] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2025-01-25T15:23:28.959+05:30  INFO 3160 --- [fms] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2025-01-25T15:23:29.087+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Starting FmsApplication using Java 21.0.5 with PID 3160 (C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend\target\classes started by aanshul in C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend)
+2025-01-25T15:23:29.087+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Running with Spring Boot v3.3.7, Spring v6.1.16
+2025-01-25T15:23:29.087+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : The following 1 profile is active: "prod"
+2025-01-25T15:23:29.855+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T15:23:29.883+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 7 JPA repository interfaces.
+2025-01-25T15:23:29.994+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-25T15:23:29.995+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-25T15:23:29.995+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-25T15:23:30.014+05:30  INFO 3160 --- [fms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-25T15:23:30.015+05:30  INFO 3160 --- [fms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 925 ms
+2025-01-25T15:23:30.046+05:30  INFO 3160 --- [fms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T15:23:30.049+05:30  INFO 3160 --- [fms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T15:23:30.057+05:30  INFO 3160 --- [fms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T15:23:30.058+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2025-01-25T15:23:30.262+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@2e851308
+2025-01-25T15:23:30.263+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2025-01-25T15:23:30.272+05:30  WARN 3160 --- [fms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T15:23:30.365+05:30  INFO 3160 --- [fms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T15:23:30.456+05:30  INFO 3160 --- [fms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:23:30.490+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.config.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2025-01-25T15:23:30.587+05:30  INFO 3160 --- [fms] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-01-25T15:23:30.588+05:30  WARN 3160 --- [fms] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-25T15:23:30.608+05:30  WARN 3160 --- [fms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T15:23:30.759+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/fmsdb'
+2025-01-25T15:23:30.775+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-25T15:23:30.786+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-25T15:23:30.789+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Started FmsApplication in 1.742 seconds (process running for 783.127)
+2025-01-25T15:23:30.791+05:30  INFO 3160 --- [fms] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-25T15:23:36.172+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-25T15:23:36.172+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-25T15:23:36.173+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-25T15:23:46.577+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-2] c.pjsoft.fms.controller.UserController   : User login AuthRequest [username=admin, password=admin123]
+2025-01-25T15:25:35.747+05:30  INFO 3160 --- [fms] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-25T15:25:35.755+05:30  INFO 3160 --- [fms] [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:25:35.756+05:30  INFO 3160 --- [fms] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2025-01-25T15:25:35.758+05:30  INFO 3160 --- [fms] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2025-01-25T15:25:35.863+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Starting FmsApplication using Java 21.0.5 with PID 3160 (C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend\target\classes started by aanshul in C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend)
+2025-01-25T15:25:35.864+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Running with Spring Boot v3.3.7, Spring v6.1.16
+2025-01-25T15:25:35.864+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : The following 1 profile is active: "prod"
+2025-01-25T15:25:36.039+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T15:25:36.068+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 7 JPA repository interfaces.
+2025-01-25T15:25:36.178+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-25T15:25:36.181+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-25T15:25:36.181+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-25T15:25:36.205+05:30  INFO 3160 --- [fms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-25T15:25:36.205+05:30  INFO 3160 --- [fms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 340 ms
+2025-01-25T15:25:36.244+05:30  INFO 3160 --- [fms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T15:25:36.245+05:30  INFO 3160 --- [fms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T15:25:36.252+05:30  INFO 3160 --- [fms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T15:25:36.253+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2025-01-25T15:25:36.341+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@6808787e
+2025-01-25T15:25:36.342+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2025-01-25T15:25:36.350+05:30  WARN 3160 --- [fms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T15:25:36.449+05:30  INFO 3160 --- [fms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T15:25:36.538+05:30  INFO 3160 --- [fms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:25:36.575+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.config.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2025-01-25T15:25:36.659+05:30  INFO 3160 --- [fms] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-01-25T15:25:36.659+05:30  WARN 3160 --- [fms] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-25T15:25:36.685+05:30  WARN 3160 --- [fms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T15:25:36.801+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/fmsdb'
+2025-01-25T15:25:36.830+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-25T15:25:36.839+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-25T15:25:36.841+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Started FmsApplication in 1.0 seconds (process running for 909.18)
+2025-01-25T15:25:36.842+05:30  INFO 3160 --- [fms] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-25T15:26:05.074+05:30  INFO 3160 --- [fms] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-25T15:26:05.079+05:30  INFO 3160 --- [fms] [Thread-35] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:26:05.079+05:30  INFO 3160 --- [fms] [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2025-01-25T15:26:05.084+05:30  INFO 3160 --- [fms] [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2025-01-25T15:26:05.178+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Starting FmsApplication using Java 21.0.5 with PID 3160 (C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend\target\classes started by aanshul in C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend)
+2025-01-25T15:26:05.178+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Running with Spring Boot v3.3.7, Spring v6.1.16
+2025-01-25T15:26:05.178+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : The following 1 profile is active: "prod"
+2025-01-25T15:26:05.363+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T15:26:05.394+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 7 JPA repository interfaces.
+2025-01-25T15:26:05.504+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-25T15:26:05.505+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-25T15:26:05.506+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-25T15:26:05.530+05:30  INFO 3160 --- [fms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-25T15:26:05.530+05:30  INFO 3160 --- [fms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 351 ms
+2025-01-25T15:26:05.561+05:30  INFO 3160 --- [fms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T15:26:05.563+05:30  INFO 3160 --- [fms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T15:26:05.570+05:30  INFO 3160 --- [fms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T15:26:05.571+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2025-01-25T15:26:05.659+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@51a62683
+2025-01-25T15:26:05.659+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2025-01-25T15:26:05.666+05:30  WARN 3160 --- [fms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T15:26:05.751+05:30  INFO 3160 --- [fms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T15:26:05.834+05:30  INFO 3160 --- [fms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:26:05.876+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.config.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2025-01-25T15:26:05.959+05:30  INFO 3160 --- [fms] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-01-25T15:26:05.960+05:30  WARN 3160 --- [fms] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-25T15:26:05.987+05:30  WARN 3160 --- [fms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T15:26:06.130+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/fmsdb'
+2025-01-25T15:26:06.148+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-25T15:26:06.157+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-25T15:26:06.160+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Started FmsApplication in 1.0 seconds (process running for 938.498)
+2025-01-25T15:26:06.162+05:30  INFO 3160 --- [fms] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-25T15:27:09.487+05:30  INFO 3160 --- [fms] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-25T15:27:09.495+05:30  INFO 3160 --- [fms] [Thread-39] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:27:09.496+05:30  INFO 3160 --- [fms] [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2025-01-25T15:27:09.498+05:30  INFO 3160 --- [fms] [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2025-01-25T15:27:09.608+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Starting FmsApplication using Java 21.0.5 with PID 3160 (C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend\target\classes started by aanshul in C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend)
+2025-01-25T15:27:09.608+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Running with Spring Boot v3.3.7, Spring v6.1.16
+2025-01-25T15:27:09.608+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : The following 1 profile is active: "prod"
+2025-01-25T15:27:09.818+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T15:27:09.839+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 7 JPA repository interfaces.
+2025-01-25T15:27:09.932+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-25T15:27:09.932+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-25T15:27:09.932+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-25T15:27:09.947+05:30  INFO 3160 --- [fms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-25T15:27:09.947+05:30  INFO 3160 --- [fms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 334 ms
+2025-01-25T15:27:09.970+05:30  INFO 3160 --- [fms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T15:27:09.972+05:30  INFO 3160 --- [fms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T15:27:09.981+05:30  INFO 3160 --- [fms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T15:27:09.982+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2025-01-25T15:27:10.196+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@2a235091
+2025-01-25T15:27:10.196+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2025-01-25T15:27:10.204+05:30  WARN 3160 --- [fms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T15:27:10.307+05:30  INFO 3160 --- [fms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T15:27:10.402+05:30  INFO 3160 --- [fms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:27:10.436+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.config.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2025-01-25T15:27:10.510+05:30  INFO 3160 --- [fms] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-01-25T15:27:10.510+05:30  WARN 3160 --- [fms] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-25T15:27:10.531+05:30  WARN 3160 --- [fms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T15:27:10.685+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/fmsdb'
+2025-01-25T15:27:10.697+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-25T15:27:10.710+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-25T15:27:10.712+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Started FmsApplication in 1.127 seconds (process running for 1003.05)
+2025-01-25T15:27:10.713+05:30  INFO 3160 --- [fms] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-25T15:27:12.945+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-25T15:27:12.945+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-25T15:27:12.948+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-01-25T15:42:11.328+05:30  WARN 3160 --- [fms] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.pjsoft.fms.model.Airport com.pjsoft.fms.controller.AirportController.createFlight(com.pjsoft.fms.dto.AirportDTO) throws com.pjsoft.fms.exception.ResourceNotFoundException: [Field error in object 'airportDTO' on field 'code': rejected value []; codes [Size.airportDTO.code,Size.code,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [airportDTO.code,code]; arguments []; default message [code],2147483647,3]; default message [Code should be more than 3 chars]] ]
+2025-01-25T15:42:19.078+05:30  WARN 3160 --- [fms] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.pjsoft.fms.model.Airport com.pjsoft.fms.controller.AirportController.createFlight(com.pjsoft.fms.dto.AirportDTO) throws com.pjsoft.fms.exception.ResourceNotFoundException: [Field error in object 'airportDTO' on field 'code': rejected value [n]; codes [Size.airportDTO.code,Size.code,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [airportDTO.code,code]; arguments []; default message [code],2147483647,3]; default message [Code should be more than 3 chars]] ]
+2025-01-25T15:43:17.407+05:30  INFO 3160 --- [fms] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-01-25T15:43:17.417+05:30  INFO 3160 --- [fms] [Thread-43] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:43:17.418+05:30  INFO 3160 --- [fms] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2025-01-25T15:43:17.421+05:30  INFO 3160 --- [fms] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2025-01-25T15:43:17.547+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Starting FmsApplication using Java 21.0.5 with PID 3160 (C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend\target\classes started by aanshul in C:\Users\aanshul\OneDrive - Sopra Steria\SpringBoot-FMS\fms-backend)
+2025-01-25T15:43:17.547+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Running with Spring Boot v3.3.7, Spring v6.1.16
+2025-01-25T15:43:17.547+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : The following 1 profile is active: "prod"
+2025-01-25T15:43:18.555+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-25T15:43:18.586+05:30  INFO 3160 --- [fms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 7 JPA repository interfaces.
+2025-01-25T15:43:18.688+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-25T15:43:18.688+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-25T15:43:18.688+05:30  INFO 3160 --- [fms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-25T15:43:18.708+05:30  INFO 3160 --- [fms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-25T15:43:18.708+05:30  INFO 3160 --- [fms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1159 ms
+2025-01-25T15:43:18.752+05:30  INFO 3160 --- [fms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-25T15:43:18.755+05:30  INFO 3160 --- [fms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-25T15:43:18.763+05:30  INFO 3160 --- [fms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-25T15:43:18.764+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2025-01-25T15:43:18.850+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@678d8b18
+2025-01-25T15:43:18.851+05:30  INFO 3160 --- [fms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2025-01-25T15:43:18.857+05:30  WARN 3160 --- [fms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-25T15:43:18.935+05:30  INFO 3160 --- [fms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-25T15:43:19.035+05:30  INFO 3160 --- [fms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-25T15:43:19.076+05:30 DEBUG 3160 --- [fms] [restartedMain] com.pjsoft.fms.config.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2025-01-25T15:43:19.172+05:30  INFO 3160 --- [fms] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-01-25T15:43:19.173+05:30  WARN 3160 --- [fms] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-01-25T15:43:19.195+05:30  WARN 3160 --- [fms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-25T15:43:19.305+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/fmsdb'
+2025-01-25T15:43:19.318+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-25T15:43:19.331+05:30  INFO 3160 --- [fms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-25T15:43:19.333+05:30  INFO 3160 --- [fms] [restartedMain] com.pjsoft.fms.FmsApplication            : Started FmsApplication in 1.838 seconds (process running for 1971.671)
+2025-01-25T15:43:19.334+05:30  INFO 3160 --- [fms] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-25T15:43:27.275+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-25T15:43:27.275+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-25T15:43:27.276+05:30  INFO 3160 --- [fms] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-01-25T20:20:05.488+05:30  WARN 3160 --- [fms] [HikariPool-12 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Thread starvation or clock leap detected (housekeeper delta=4h16m46s197ms827µs800ns).
