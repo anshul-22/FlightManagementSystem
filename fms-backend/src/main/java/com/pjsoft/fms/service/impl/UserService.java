@@ -48,7 +48,7 @@ public class UserService {
 		log.info("pass-> {}", userRequest.getPassword());
 		userRequest.setPassword(passwordEncoder.encode(userRequest.getPassword()));
 		log.info("pass encode-> {}", userRequest.getPassword());
-		User user = new User(userRequest.getName(), userRequest.getUsername(), userRequest.getPassword());
+		User user = new User(userRequest.getName(), userRequest.getUsername(), userRequest.getPassword(),userRequest.getEmail());
 //		User user=new User("Anshul", "anshul", passwordEncoder.encode("ansh123"));
 		log.info("pass encode-> {}", user.getPassword());
 		user = userRepository.save(user);
